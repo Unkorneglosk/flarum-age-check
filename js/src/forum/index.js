@@ -3,7 +3,7 @@ import IndexPage from 'flarum/forum/components/IndexPage';
 import SiteSplash from './splash';
 import { extend, override } from 'flarum/common/extend';
 
-app.initializers.add('webbinaro/flarum-age-check', () => {
+app.initializers.add('unkorneglosk/flarum-age-check', () => {
 
 extend(DiscussionPage.prototype, 'pageContent', (items) => { 
   items.add('agebox', <SiteSplash />);
@@ -21,7 +21,7 @@ extend(IndexPage.prototype, 'sidebarItems', (items) => {
   return items;
 });
 
-  console.log('[webbinaro/flarum-age-check] intialized');
+  console.log('[unkorneglosk/flarum-age-check] intialized');
   
 });
 /* 
