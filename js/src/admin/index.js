@@ -1,3 +1,3 @@
-app.initializers.add('webbinaro/flarum-age-check', () => {
-  console.log('[webbinaro/flarum-age-check] Hello, admin!');
+app.initializers.add('unkorneglosk/flarum-age-check', () => {
+  console.log('[unkorneglosk/flarum-age-check] Hello, admin!');
 });
