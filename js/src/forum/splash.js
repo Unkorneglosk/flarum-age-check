@@ -6,9 +6,9 @@ export default class SiteSplash extends Component {
   }
 
   view() {
-    if( ! this.attrs.enterText ) this.attrs.enterText = "Yes"
-    if( ! this.attrs.exitText ) this.attrs.exitText = "No"
-    if( ! this.attrs.verifyPrompt ) this.attrs.verifyPrompt = "By clicking enter, I certify that I am over the age of 21 with legal right to cultivate and process cannabis."
+    if( ! this.attrs.enterText ) this.attrs.enterText = "Oui"
+    if( ! this.attrs.exitText ) this.attrs.exitText = "Non"
+    if( ! this.attrs.verifyPrompt ) this.attrs.verifyPrompt = "En cliquant sur Oui, vous certifiez avoir plus de 18 ans et être exposé à du contenu possiblement réservé aux personnes majeures."
     
     // we already hassled them, show noting
     if (sessionStorage.getItem('ageVerify') == 'true') {
@@ -22,10 +22,10 @@ export default class SiteSplash extends Component {
           <div class="verifybox">
               <div class="verifybox-left">
                 
-                  <p>This forum is only for use in states where the cultivation and processing of cannabis is legal. </p>
+                  <p>Ce forum est uniquement accessible aux personnes majeures selon la loi française.</p>
               </div>
               <div class="verifybox-right">
-                  <h3>Age Verification</h3>
+                  <h3>Vérification de l'age</h3>
                   <p>{this.attrs.verifyPrompt}</p>
                   {this.attrs.consentMessage}
                   <button id='consent-enter' class="btn btn-alpha" 
@@ -46,7 +46,7 @@ export default class SiteSplash extends Component {
                       {this.attrs.exitText}
                   </button>
                   
-                  <small>Always enjoy responsibily.</small>
+                  <small>Merci de votre comphréension</small>
               </div>
           </div>
       </div>
