@@ -9,13 +9,13 @@ A [Flarum](http://flarum.org) extension. Adds a modal that blocks site access un
 Install with composer:
 
 ```sh
-composer require webbinaro/flarum-age-check:"*"
+composer require unkorneglosk/flarum-age-check:"*"
 ```
 
 ## Updating
 
 ```sh
-composer update webbinaro/flarum-age-check:"*"
+composer update unkorneglosk/flarum-age-check:"*"
 php flarum migrate
 php flarum cache:clear
 ```
