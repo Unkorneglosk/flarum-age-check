@@ -1,5 +1,5 @@
 {
-    "name": "webbinaro/flarum-age-check",
+    "name": "unkorneglosk/flarum-age-check",
     "description": "Adds a modal that blocks site access until user accepts modal. Used for age verification or  critical announcements. ",
     "keywords": [
         "flarum"
@@ -14,19 +14,19 @@
     },
     "authors": [
         {
-            "name": "Eddie Webbinaro",
-            "email": "eddie@webbinaro.dev",
+            "name": "Loïck D.",
+            "email": "loick.diroll@losk.fr",
             "role": "Developer"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Webbinaro\\AgeCheck\\": "src/"
+            "Unkorneglosk\\AgeCheck\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Webbinaro\\AgeCheck\\Tests\\": "tests/"
+            "Unkorneglosk\\AgeCheck\\Tests\\": "tests/"
         }
     },
     "extra": {
