@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Webbinaro\AgeCheck;
+namespace Unkorneglosk\AgeCheck;
 
 use Flarum\Extend;
 
